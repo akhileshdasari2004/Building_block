@@ -8,10 +8,10 @@ import Navbar from "@/components/layout/navbar";
 import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "Akhil Dasari - Full Stack Developer & Designer",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  metadataBase: new URL("https://precedent.dev"),
+    "Akhil Dasari is a passionate full stack developer and designer creating innovative digital experiences with modern technologies.",
+  metadataBase: new URL("https://akhildasari.dev"),
 };
 
 export default async function RootLayout({
@@ -23,7 +23,7 @@ export default async function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={cx(sfPro.variable, inter.variable)}>
-          <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
+          <div className="fixed h-screen w-full bg-gradient-to-br from-gray-900 via-black to-gray-800" />
           <Suspense fallback="...">
             <Navbar />
           </Suspense>
